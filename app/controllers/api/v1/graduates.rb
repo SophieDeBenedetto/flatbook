@@ -6,7 +6,7 @@ module API
       resource :graduates do
         desc "Return all graduates"
         get "", root: :graduates do
-          Contact.all
+          Graduate.all
         end
 
         desc "Return a graduate"

@@ -8,5 +8,7 @@ FactoryGirl.define do
     news "I recently moved into a new apartment on the moon!"
     website "www.awesomewebsite.com"
     picture Faker::Avatar.image("my-own-slug")
+    created_at Date.today
+    updated_at Date.today
   end
 end
