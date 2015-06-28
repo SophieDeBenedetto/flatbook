@@ -153,6 +153,9 @@ GEM
       activesupport (>= 3.2, < 5)
     hashie (3.4.1)
     hike (1.2.3)
+    httparty (0.13.3)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
     i18n (0.7.0)
     ice_nine (0.11.1)
     inherited_resources (1.6.0)
@@ -172,6 +175,10 @@ GEM
       activesupport (>= 3.0.0)
     launchy (2.4.3)
       addressable (~> 2.3)
+    linkedin (1.0.0)
+      hashie (~> 3.0)
+      multi_json (~> 1.0)
+      oauth (~> 0.4)
     loofah (2.0.2)
       nokogiri (>= 1.5.9)
     mail (2.6.3)
@@ -188,6 +195,7 @@ GEM
     multi_xml (0.5.5)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
+    oauth (0.4.7)
     orm_adapter (0.5.0)
     parser (2.2.2.5)
       ast (>= 1.1, < 3.0)
@@ -342,7 +350,9 @@ DEPENDENCIES
   grape
   grape-active_model_serializers
   grape-swagger-rails
+  httparty
   jquery-rails
+  linkedin
   meta_request
   pg
   poltergeist

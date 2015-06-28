@@ -12,6 +12,8 @@ gem "pg"
 gem "rack-cors", require: "rack/cors"
 gem "sass-rails", "~> 4.0.3"
 gem "uglifier", ">= 1.3.0"
+gem "linkedin"
+gem "httparty"
 
 group :development do
   gem "better_errors"
