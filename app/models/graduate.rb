@@ -4,7 +4,7 @@ class Graduate < ActiveRecord::Base
 
   ActiveAdmin.register Graduate do
     permit_params :id, :first_name, :last_name, :cohort, 
-    :current_job, :bio, :news, :website, :picture, :created_at, :updated_at
+    :current_job, :bio, :news, :website, :picture, :linkedin, :twitter, :github, :created_at, :updated_at
   end
 end
 
